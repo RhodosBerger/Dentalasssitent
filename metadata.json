@@ -1,0 +1,8 @@
+{
+  "name": "Virtuálny Recepčný: Dentista",
+  "description": "A full-fledged presentation website for a dental clinic's AI virtual assistant 'Aurélia', featuring a live demo, interactive tour, and voice capabilities.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "prompt": ""
+}
