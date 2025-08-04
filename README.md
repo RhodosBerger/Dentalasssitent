@@ -1,14 +1,11 @@
-# Run and deploy your AI Studio app
+# Virtuálny recepčný
 
-This contains everything you need to run your app locally.
+Jednoduchá aplikácia v Reacte, ktorá umožňuje konverzáciu so zubnou recepčnou v slovenčine a rezerváciu termínov.
 
-## Run Locally
+## Spustenie lokálne
 
-**Prerequisites:**  Node.js
+**Požiadavky:** Node.js a OpenAI API kľúč.
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Inštalácia závislostí: `npm install`
+2. V súbore `.env.local` nastavte premenú `VITE_OPENAI_API_KEY` na váš API kľúč.
+3. Spustite vývojový server: `npm run dev`
